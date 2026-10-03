@@ -75,3 +75,20 @@ nav a { margin-right: 18px; font-weight: 600; font-size: .95rem; }
 
 .empty { color: var(--muted); }
 .footer { color: var(--muted); font-size: .8rem; padding-top: 24px; padding-bottom: 40px; }
+
+/* Slack 用ページ */
+.slack-lead { color: var(--muted); font-size: .9rem; }
+.slack-controls { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; margin: 12px 0; font-size: .9rem; }
+.slack-controls select { font: inherit; padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--text); margin-left: 6px; }
+.slack-controls fieldset { border: 0; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; }
+.slack-controls legend { float: left; margin-right: 8px; padding: 0; }
+.slack-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 16px; }
+.btn { font: inherit; font-size: .9rem; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 6px; padding: 6px 14px; cursor: pointer; }
+.btn:hover { border-color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+.btn.small { font-size: .8rem; padding: 2px 10px; }
+.toast { color: var(--green); font-size: .85rem; opacity: 0; transition: opacity .2s; }
+.toast.show { opacity: 1; }
+.slack-msg { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 10px 14px; margin-bottom: 10px; }
+.slack-msg-head { display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: .8rem; margin-bottom: 4px; }
+.slack-body { font-size: .92rem; line-height: 1.65; overflow-wrap: anywhere; }
